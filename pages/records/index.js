@@ -2,7 +2,7 @@ import UseRecords from "../../composables/UseRecords"
 import Title from "../../components/title/Title"
 import ButtonDefault from "../../components/button/Button.style"
 import styles from '../../styles/Record.module.css';
-import Footer from "../../components/Footer/footer";
+import Footer from "../../components/Footer/Footer";
 import SetUser from "../../helpers/SetUser";
 
 const index = () => {
