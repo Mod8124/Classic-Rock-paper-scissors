@@ -1,0 +1,29 @@
+.normal {
+  width: 95%;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 34% 50% 16%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 82px;
+  max-width: 1366px;
+}
+
+.normal__title {
+  height: auto;
+}
+
+.normal__options {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:600px) {
+  .normal {
+    grid-template-rows: 34% 59% 7%;
+  }
+}

@@ -1,0 +1,23 @@
+.lizard {
+  width: 95%;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 34% 59% 7%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 82px;
+  max-width: 1366px;
+}
+
+.lizard__title {
+    height: auto;
+}
+
+.lizard__options {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}

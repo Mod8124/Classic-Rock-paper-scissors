@@ -6,15 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:ci": "jest --ci"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
+    "mongoose": "^6.3.6",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "babel-jest": "^28.1.1",
+    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1"
   }
 }
